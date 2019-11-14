@@ -1,7 +1,3 @@
-#### A blue heading
-[![Generic Link]("Button")](https://www.google.com/?client=safari)
-
-
 ## collapsible markdown?
 <details><summary>CLICK ME</summary>
 <p>
@@ -11,6 +7,9 @@
 ```python
 print("hello world!")
 ```
+- Markdown Rocks!
+- This is a practice list for TOC
+
 
 </p>
 </details>
