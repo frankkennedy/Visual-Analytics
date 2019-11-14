@@ -2,7 +2,7 @@
 <details><summary>CLICK ME</summary>
 <p>
 
-#### yes, even hidden code blocks!
+#### This works for Python and markdown lists.  Amazing.
 
 ```python
 print("hello world!")
