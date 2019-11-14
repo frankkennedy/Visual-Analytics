@@ -1,14 +1,11 @@
 ## collapsible markdown?
-<details><summary>CLICK ME</summary>
+<details><summary>Online Learning Communities</summary>
 <p>
 
-#### This works for Python and markdown lists.  Amazing.
-
-```python
-print("hello world!")
-```
-- Markdown Rocks!
-- This is a practice list for TOC
+#### My favorite online learning communities are below:
+- [Udemy](https://www.udemy.com/)
+- [Coursera](https://www.coursera.org)
+- [EDX](https://courses.edx.org/dashboard)
 
 
 </p>
