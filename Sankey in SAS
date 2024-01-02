@@ -1,0 +1,36 @@
+/*
+Create a Sankey diagram in SAS.  
+I could not find a good example online, 
+so tried ChatGPT and got a good answer
+*/
+
+
+/*
+input data
+*/
+data Sankey;
+   input Source $ Target $ Value;
+   datalines;
+A B 20
+A C 30
+B D 15
+C D 15
+B E 5
+C E 10
+D F 25
+E F 15
+;
+
+/*
+Now to create the diagram.
+SAS/GRAPH installation is required.
+*/
+
+Proc sgrender data=Sankey template;
+   dynamic Source / sourcevar = Source
+                    targetvar = Target
+                    valuevar  = Value
+;
+
+run
+;
